@@ -13,7 +13,10 @@ public class UserLocator extends Locator<User, Integer> {
 
 	@Override
 	public User find(Class<? extends User> clazz, Integer id) {
-		return User.getInstance();
+		
+		return User.getInstance().cloned();
+		
+		
 	}
 
 	@Override

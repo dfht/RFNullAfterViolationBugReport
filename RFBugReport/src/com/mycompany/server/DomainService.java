@@ -20,13 +20,14 @@ public class DomainService {
 	
 	public void save(User user)
 	{
-		//Don't need to do anything, it's just so we actually get to the validation stage.
-		System.out.print(user.getName());
+		
+		//It's a clone that is coming back so let's put the change into the original.
+		User.getInstance().applyChangesFrom(user);
 	}
 	
 	
 	public User user()
 	{
-		return User.getInstance();
+		return User.getInstance().cloned();
 	}
 }

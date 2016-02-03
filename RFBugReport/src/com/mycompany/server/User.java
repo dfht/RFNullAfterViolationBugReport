@@ -26,7 +26,18 @@ public class User {
 		this.name = name;
 	}
 	
+	public synchronized User cloned()
+	{
+		User u = new User();
+		u.setName(getName());
+		return u;
+	}
 	
+	
+	synchronized void applyChangesFrom(User user)
+	{
+		setName(user.getName());
+	}
 	
 
 }
