@@ -14,19 +14,13 @@ import com.google.gwt.validation.client.impl.ConstraintViolationImpl;
 import com.google.gwt.validation.client.impl.PathImpl;
 import com.google.web.bindery.requestfactory.server.ServiceLayerDecorator;
 
-/**
- * Copyright © Serisys Limited 2013-2016
- * @author Darren
- *
- * 2 Feb 2016
- */
+
 public class MySLD extends ServiceLayerDecorator {
 
 	/**
 	 * 
 	 */
 	public MySLD() {
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

@@ -3,12 +3,7 @@
  */
 package com.mycompany.server;
 
-/**
- * Copyright © Serisys Limited 2013-2016
- * @author Darren
- *
- * 2 Feb 2016
- */
+
 public class DomainService {
 	
 	private static DomainService instance = new DomainService();

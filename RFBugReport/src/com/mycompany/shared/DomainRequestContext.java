@@ -11,6 +11,7 @@ import com.mycompany.server.MyServiceLocator;
 
 
 
+
 @Service(value=DomainService.class, locator = MyServiceLocator.class)
 public interface DomainRequestContext extends RequestContext {
 

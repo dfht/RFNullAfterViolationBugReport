@@ -29,12 +29,7 @@ import com.mycompany.shared.DomainRequestContext;
 import com.mycompany.shared.IDomainRequestFactory;
 import com.mycompany.shared.UserProxy;
 
-/**
- * Copyright © Serisys Limited 2013-2016
- * @author Darren
- *
- * 2 Feb 2016
- */
+
 public class UserScreen extends Composite implements Editor<UserProxy> {
 
 	private static UserScreenUiBinder uiBinder = GWT

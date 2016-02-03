@@ -2,6 +2,7 @@ package com.mycompany.server;
 
 import com.google.web.bindery.requestfactory.shared.Locator;
 
+
 public class UserLocator extends Locator<User, Integer> {
 
 	@Override
