@@ -164,7 +164,7 @@ public class UserScreen extends Composite implements Editor<UserProxy> {
 		boolean hasErrors = processErrors();
 		if(!hasErrors)
 		{
-			if(saveRequest == null)
+			if(saveRequest == null) //Change this to true to show what happens when request is rebuilt each time (i.e. it works then).
 			{
 				saveReceiver = 
 						new Receiver<Void>() {
